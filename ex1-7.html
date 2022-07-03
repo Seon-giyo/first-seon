@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <style>
+      div {
+      display: inline-block;
+      padding: 0 20px 30px 20px;
+      margin: 15px;
+      border: 1px solid #cccccc;
+      line-height: 2;
+      text-align: center;
+    }
+    div h3 {
+      text-align: center;
+      font-weight: bold;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+  <body>
+      <h1>구구단</h1>
+    <script>
+        var i;
+        var j;
+        
+        for (i=2; i<=9; i++){
+            document.write("<div>");
+                document.write("<h3>" + i + "단"+"<br>");
+            for (var j= 1; j<=9; j++ ){
+                document.write(i + "x" + j + "=" + i * j+"<br>")
+            }
+            document.write("</div>")
+        }
+
+</script>
+  </body>
+</html>

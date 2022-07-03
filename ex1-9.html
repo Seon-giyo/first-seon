@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <script>
+        var n = parseInt(prompt("몇까지 더 할 것인지 입력하시오: "));
+var sum = 0;
+var i;
+
+        for (i=1; i<=n; i++){
+            if ( i % 2 == 1){
+            continue;
+        }
+        sum+=i;
+        }
+        document.write("1부터" + n + "까지 짝수의 합은 :" + sum)
+
+</script>
+  </body>
+</html>
